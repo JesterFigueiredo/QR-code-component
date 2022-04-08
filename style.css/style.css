@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigcard{
+    width: 80%;
+    height: 70%;
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+#maincard{
+    background-color: white;
+    width: 18%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 13px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+p{
+    font-size: 10px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px;
+    padding-top:8px;
+    margin: 0px;
+}
+
+/* css for smaller screen */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #d5e1ef;;
+    }
+
+    #bigcard{
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #maincard{
+        background-color: white;
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h1{
+        font-size: 20px;
+        font-family: Roboto,sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 8px;
+        margin: 0px;
+    }
+    
+    p{
+        font-size: 14px;
+        font-family: Roboto,sans-serif;
+        font-weight: 400;
+        text-align: center;
+        padding: 12px;
+        padding-top:8px;
+        margin: 0px;
+    }
+    
+  }

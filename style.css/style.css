@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 html, body {
     margin: 0;
@@ -40,7 +40,7 @@ img{
 
 h1{
     font-size: 17px;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     text-align: center;
     padding: 10px;
@@ -50,7 +50,7 @@ h1{
 
 p{
     font-size: 13px;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 400;
     text-align: center;
     padding: 12px;
@@ -59,10 +59,47 @@ p{
 }
 
 /* css for smaller screen */
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: #d5e1ef;;
+
+@media only screen and (max-width: 1400px) {
+    #maincard{
+        background-color: white;
+        width: 25%;
+        height: auto;
     }
+}
+
+@media only screen and (max-width: 1110px) {
+    #bigcard{
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #maincard{
+        background-color: white;
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #bigcard{
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #maincard{
+        background-color: white;
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
 
     #bigcard{
         box-shadow: none;
@@ -75,29 +112,6 @@ p{
         background-color: white;
         width: 70%;
         height: auto;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    h1{
-        font-size: 21px;
-        font-family: Roboto,sans-serif;
-        font-weight: 700;
-        text-align: center;
-        padding: 10px;
-        padding-bottom: 8px;
-        margin: 0px;
-    }
-    
-    p{
-        font-size: 16px;
-        font-family: Roboto,sans-serif;
-        font-weight: 400;
-        text-align: center;
-        padding: 12px;
-        padding-top:8px;
-        margin: 0px;
     }
     
   }
